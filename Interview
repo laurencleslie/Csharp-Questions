@@ -1,0 +1,76 @@
+Q: What is a namespace?
+a declaration that helps separates files and keeps things organized
+Q: What are value types?
+a data type that holds information in its own memory
+Q: What are reference types?
+a data type that holds information not personal to its own memory, instead stores its address
+Q: What is an automatic property and how is it useful?
+properties that are automatically implemented into the program. It helps because you would not have to do it manually. 
+Q: What is the purpose of using statement?
+makes sure that the object is used and cleared only within the block
+Q: What are dynamic type variables?
+a flexible variable type that can interact with an object without needing to cast it
+Q: What is the purpose of the is operator?
+the is operator is meant to interact with boolean to tell if a statement is true or false
+Q: What are generics and how is using them useful?
+helps organize data by placing and accessing them in different ways
+Q: What is the scope of a public member of a class?
+Unlike private members who just stay in the class, a public member can go anywhere outside of the class
+Q: Can you create a function that can accept a varying number of arguments?
+You can, by using the params keyword that accepts in
+Q: How do you sort an array?
+You can sort an array in a variety of ways. In C# you can use array.short or orderby
+Q: What is a nullable type and what purpose does it serve?
+null types dont have a value, nullable types are usefull because they can hold any non-nullable variable
+Q: What is an enumeration?
+enumerations, or enums, are used to hold the same variable. they make it so its easier to access later in your code
+Q: What is inheritance?
+inhertance works with parent and child classes. Each class works in hand to change or expand on these classes.
+Q: Is multiple inheritance supported?
+c# only works in single inheritance
+Q: What is the purpose of as operator
+as operator is used to convert refence types to null types 
+Q: What is an object?
+objects store variables and arrays
+Q: What is the difference between a struct and a class?
+a struct can have public members but a class can have both prive and public members
+Q: What is the difference between continue and break statements?
+a continue statement is meant to execute the code further, whilst break statements stops running the code after its line
+Q: What is this and how is it used?
+this uses a clearer example of how a piece of code is used and implemented
+Q: What is try and catch and when are they used?
+Try and catch are statements used to exception handling 
+Q: How is exception handling done?
+exception handling is meant to catch errors in code and redirect them when a peice of code is running
+Q: What is finally and what is its purpose?
+even though finally isnt as important as try and catch, but its meant to work with "try" to keep it runinning
+Q: List the differences between Array and ArrayList.
+an ArrayList is more flexible than Array, it doesnt need a set number of memebers to run. an array list takes less memory than arraylist
+Q: Define constructor.
+Constructors can hold multiple arguments and is used when a class or struct is created
+Q: What is an abstract class?
+an abstract class defines abstract properties, and is a flexible class that can be used with classes and methods
+Q: What is an interface?
+interfaces are used for interactions between an object and the one using the object
+Q: What is a method?
+a method contains a multitude of statements within its block
+Q: What is a property?
+used to read an write a value of a member in its private field
+Q: What is an access specifier?
+keywords such as public and private to indate where the code wants to go and how it wants to be used
+Q: What access specifiers are supported and what do they mean?
+there are 5 access specifiers: public, private, internal,protected and protected internal
+Q: What is a collection?
+a collection stores and retrieves blocks of data
+Q: What is a Hash Table?
+a Hash Table is used to access organized elements using key and value statements 
+
+
+Sources:
+https://en.wikibooks.org/wiki/C_Sharp_Programming/Interfaces
+https://www.c-sharpcorhttps://en.wikibooks.org/wiki/C_Sharp_Programming/Interfaceser.com/UploadFile/manas1/params-in-C-Sharp-pass-variable-number-of-parameters-to-method/
+https://www.dotnetperls.com/sort
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/nullable-types/
+https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/inheritance
+http://csharp.net-informations.com/language/csharp-access-specifiers.htm
+https://www.tutorialspoint.com/csharp/csharp_hashtable.htm
